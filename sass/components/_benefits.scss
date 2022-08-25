@@ -9,17 +9,18 @@
   }
   
   
-  .benefits__list,
-  .work__list {
+  .benefits__list{
     display: flex;
+
+    & .benefits__item {
+      width: 270px;
+    }
+    & .benefits__item + .benefits__item {
+      margin-left: 45px;
+    }
   }
   
-  .benefits__list .benefits__item {
-    width: 270px;
-  }
-  .benefits__list .benefits__item + .benefits__item {
-    margin-left: 45px;
-  }
+  
   .benefits__box {
     display: flex;
     justify-content: center;

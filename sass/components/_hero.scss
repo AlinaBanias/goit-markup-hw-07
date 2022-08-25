@@ -12,8 +12,8 @@
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-  }
-  .hero__title {
+  
+  &__title {
     width: 693px;
     margin-left: auto;
     margin-right: auto;
@@ -26,7 +26,8 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
-  .hero__button {
+
+  &__button {
     padding: 10px 32px;
     background-color: var(--accent-color);
     color: var(--light-text-color);
@@ -38,4 +39,4 @@
     border: 0;
     border-radius: 4px;
   }
-  
+}
